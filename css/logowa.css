@@ -1,0 +1,28 @@
+*{margin: 0; padding: 0;}
+
+#waflotante{
+	position: fixed;
+	width: 65px;
+	height: 65px;
+	top:85%;
+	left:93%;
+	z-index: 9000;
+
+}
+
+@media screen and (max-width: 950px){
+	#waflotante{
+		left: 90%;
+	}
+}
+@media screen and (max-width: 670px){
+	#waflotante{
+		left: 87%;
+	}
+}
+
+@media screen and (max-width: 495px){
+	#waflotante{
+		left: 80%;
+	}
+}

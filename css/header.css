@@ -1,0 +1,291 @@
+*{margin: 0; padding: 0;}
+
+body{ /*color del fondo*/
+	background: #fffffa;
+	padding: 0px;
+}
+
+header{
+	width: 100%;
+	overflow: hidden;
+	background: #d8320c;
+	z-index: 1000;
+	position: fixed;
+	top:0;
+}
+
+.sub-menu{
+	position: absolute;
+	top:5%;
+	right: 10%;
+	width: 100%;
+}
+
+header .carrito{
+position: absolute;
+top: 2%;
+right: 5%;
+color: white;
+width:30px;
+height:30px;
+
+}
+
+.noti{
+position: absolute;
+top: 3%;
+left: 95%;
+z-index: 9000;
+}
+
+.noti{
+	position: absolute;
+	top:10;
+	left: -20;
+}
+
+header .usu{
+	
+	position: absolute;
+	top:6%;
+	left: 78%;
+	font-size: 90%;
+	color: white;
+	z-index: 2000;
+
+}
+header .usu a{
+	color: white;
+
+}
+
+header .usu a:hover{
+	font-size: 15px;
+		color: white;
+
+}
+
+header .wrapper{
+	width: 100%; /*ancho del contenido*/
+	max-width: 10000px;
+	margin: auto; /*centrar contenido*/
+	overflow: hidden;
+}
+
+header .logo{
+	color:white;
+	font-size: 50px;
+	font-family: calibri;
+	line-height: 50px;
+	
+}
+
+header .logo img{
+	height: 15%;
+	width:25%;
+	padding-top: 1%;
+	margin-top: 2%;
+	padding-bottom: 2%;
+	position: relative;
+	left: 2%;
+}
+
+header #nave{
+	float: right;
+	line-height: 1300%;
+	position: absolute;
+	top:-1%;
+	left: 70%;
+}
+
+header #nave a{
+	display: inline-block;¨/*para que cada elemento este al lado del otro y podamos modificarlo*/
+	color:#fff;
+	text-decoration: none;
+	padding: 10px 10px;
+	line-height: normal;/*quitar lineheigth a los elementos asi solo aparece puntero en el elemento*/
+	font-size: 113%;
+	font-weight: bold;
+	font-family: calibri;
+	color: white;
+
+	-webkit-transition:500ms ease;/*trasision de efecto elementos del nav*/
+	-o-transiition:500ms ease ;
+	transition:500ms ease ;
+}
+
+header #nave a:hover{ /*agregar redondel al pasar el cursor por los elementos*/
+	background:#808B96;
+	border-radius:50px;: 
+}
+
+
+.header2{
+	position: fixed;/*mostrar header siempre en pantalla*/
+	height: 100px;/*modificar alto de header al bajar*/
+	margin-bottom: 10%;
+}
+
+.header2 .logo{
+	line-height: 0px
+	/*font-size: 30px;*/
+}
+
+.header2 .logo img {
+
+	height: 20%; 
+	width:20%;
+	
+}
+
+.header2 #nave{
+	line-height: 100px;
+	top:25%;
+
+}
+
+.header2 #nave a{
+	font-size: 100%;
+
+}
+
+.header2 .usu{
+	position: absolute;
+	top:25%;
+	left: 77%;
+	font-size: 13px;
+	color: white;
+	z-index: 2000;
+
+}
+.header2 .usu a{
+	color: white;
+
+}
+
+.header2 .usu a:hover{
+	font-size: 13px;
+	color: white;
+
+}
+
+.header2 .carrito{
+position: absolute;
+top:17px;
+left:50%;
+width:25px;
+height:25px;
+color: white;
+}
+
+.header .ella{
+	position: absolute;
+
+top:200px;
+left: 
+}
+
+.header2 #input-search{
+	position: absolute;
+	top:40%;
+	font-size: 125%;
+	width: 30%;
+	margin-right: 150%;
+}
+
+.header2 .container-1 .icon{
+	position: absolute;
+	top: 25%;
+}
+
+
+
+/*
+ESPACIO PARA CONTENIDO PARA QUE NO LO TAPE EL HEADER
+.contenido{
+	padding:150px;
+}*/
+
+.contenido p{
+	margin-bottom: 1em;
+}
+
+.wrapper{
+	width: 90%; /*ancho del contenido*/
+	max-width: 1000px;
+	margin: auto; /*centrar contenido*/
+	overflow: hidden;
+}
+/*RESPONSIVE*/
+
+
+
+@media screen and (max-width: 981px){
+	header #nave{
+		width: 100%;
+		line-height: 0px;
+		position: absolute;
+		top:8%;
+		left: 68%;
+		padding: 5px;
+	}
+}
+
+
+@media screen and (max-width: 950px) {
+	header .logo,
+	header #nave{
+		width: 100%;
+		text-align: center;
+		line-height: 60px;
+		position: relative;
+		left: 1%;
+	}
+
+	header #nave a{
+		display: block;
+		position: relative;
+		left: 45%;
+		text-indent: all;
+	}
+	
+	.header2{
+		height: auto;
+	}
+
+	.header2 .logo,
+	.header2 #nave{
+		line-height: 60px;
+	}
+
+	.header2 #nave{
+		top:10px;
+	}
+}
+
+
+@media screen and (min-width: 1366px){
+	header .logo img{
+	height: 10%;
+    width: 20%;
+    padding-top: 1%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding-bottom: 0;
+    position: relative;
+    left: 2%;
+	}
+
+
+	.header2 .logo img{
+	height: 15%;
+	width:15%;
+	padding-top: 1%;
+	margin-top: 1%;
+	padding-bottom: 2%;
+	position: relative;
+	left: 2%;
+	}
+}
+
+ 

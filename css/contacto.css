@@ -1,0 +1,20 @@
+#heade {
+    color: black;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    color: #d8320c;
+}
+
+.subm{
+	color: #d8320c;
+
+}
+
+@media screen and (max-width: 700px){
+	.container{
+		padding: 10%;
+	}
+}
